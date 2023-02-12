@@ -1,0 +1,18 @@
+:root {
+  --dark-bg-color: #252b42;
+  --bg-gradient-1: rgba(41, 92, 122, 1);
+  --bg-gradient-2: rgba(0, 114, 181, 1);
+  --card-color-light: #f9f9f9;
+  --card-color-dark: #295c7a;
+  --btn-color-light: #d0a144;
+  --btn-color-light-hover: #d19b2e;
+  --btn-color-dark: #784f33;
+  --btn-color-dark-hover: #a7673d;
+  --text-color-dark: rgba(37, 43, 66, 1);
+  --text-color-ligth: rgba(115, 115, 115, 1);
+  --social-media-icons-color: rgba(189, 189, 189, 1);
+  --input-bg: #f9f9f9;
+  --border-light: #e6e6e6;
+  --hamburger-background-dark: #5a5a5a;
+  --hamburger-background-light: #444;
+}
