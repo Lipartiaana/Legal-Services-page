@@ -1,5 +1,6 @@
 @import "./colors.css";
 @import "./typography.css";
+@import "./header.css";
 
 * {
   margin: 0;
@@ -57,10 +58,10 @@ nav {
   width: 75%;
 }
 
-   /* hamburger menu */
-.menu{
-    visibility: hidden;
-  }
+/* hamburger menu */
+.menu {
+  visibility: hidden;
+}
 .menu-button-container {
   display: none;
   height: 100%;
@@ -88,12 +89,12 @@ nav {
 }
 
 .menu-button::before {
-  content: '';
+  content: "";
   margin-top: -8px;
 }
 
 .menu-button::after {
-  content: '';
+  content: "";
   margin-top: 8px;
 }
 
@@ -112,10 +113,10 @@ nav {
 }
 
 @media (max-width: 800px) {
-  .nav-links{
+  .nav-links {
     display: none;
   }
-  .menu{
+  .menu {
     visibility: visible;
   }
   .menu-button-container {
@@ -131,7 +132,7 @@ nav {
     justify-content: center;
     align-items: center;
   }
-  #menu-toggle ~ .menu li{
+  #menu-toggle ~ .menu li {
     list-style: none;
   }
   #menu-toggle ~ .menu a {
@@ -159,7 +160,7 @@ nav {
     background-color: var(--hamburger-background-light);
   }
 
-  .menu > a:hover{
+  .menu > a:hover {
     background-color: #5a5a5a;
   }
   .menu > a:not(:last-child) {
@@ -226,7 +227,7 @@ h4 {
   padding: 10px 36px;
 }
 
-.link-btn{
+.link-btn {
   cursor: pointer;
 }
 
@@ -354,14 +355,14 @@ section {
   display: flex;
 }
 
-.text-with-icon{
+.text-with-icon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .float-icons {
-  width:30px;
+  width: 30px;
   height: 30px;
   margin-right: 20px;
 }
@@ -377,7 +378,6 @@ section {
 .small-column h5 {
   padding-top: 30px;
 }
-
 
 #follow {
   width: 1050px;
@@ -501,7 +501,6 @@ section {
   background-color: #ffffff62;
 }
 
-
 @media (max-width: 1100px) {
   header,
   section,
@@ -580,9 +579,9 @@ section {
   }
 
   .card-blue-large {
-  height: 333px;
-  padding: 50px 40px;
-}
+    height: 333px;
+    padding: 50px 40px;
+  }
 
   #areas,
   #advice,
@@ -622,9 +621,9 @@ section {
     margin: auto;
     padding: 10px 40px 20px;
     width: 100%;
-  } 
-  
-  .small-column{
+  }
+
+  .small-column {
     margin-left: auto;
     width: 100%;
     padding: 30px;
@@ -662,8 +661,8 @@ section {
     text-align: center;
   }
 
-  #contact{
-    padding:0;
+  #contact {
+    padding: 0;
   }
 
   .contact-btn {
@@ -825,10 +824,10 @@ section {
   float: left;
 }
 
-footer{
+footer {
   margin-top: 20px;
   text-align: right;
-  padding-right:20px;
+  padding-right: 20px;
 }
 .made-by {
   display: flex;
@@ -860,39 +859,38 @@ footer{
   color: #e42f08;
 }
 
-
 @media screen and (max-width: 800px) {
-  .info{
-    padding:0;
+  .info {
+    padding: 0;
   }
   .info-content {
     flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-}
-.info-links{
-  width: 100%;
-  text-align: center; 
-  padding-top: 0;
-  margin-right: 0;
-}
+    width: 100%;
+    justify-content: center;
+  }
+  .info-links {
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+    margin-right: 0;
+  }
 
-.info-links h5,
-.info-icons h5{
-  padding-bottom: 0;
-  margin-top: 30px;
-  text-align: center;
-}
+  .info-links h5,
+  .info-icons h5 {
+    padding-bottom: 0;
+    margin-top: 30px;
+    text-align: center;
+  }
 
-.info-icons h5{
-  padding-bottom: 20px;
-}
-.info-icons-conatiner{
-  display: flex;
-  justify-content: center;
-}
-.info-icons-conatiner img{
-  width:20px;
-  height: 20px;
-}
+  .info-icons h5 {
+    padding-bottom: 20px;
+  }
+  .info-icons-conatiner {
+    display: flex;
+    justify-content: center;
+  }
+  .info-icons-conatiner img {
+    width: 20px;
+    height: 20px;
+  }
 }
