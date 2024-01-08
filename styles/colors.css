@@ -11,8 +11,10 @@
   --text-color-dark: rgba(37, 43, 66, 1);
   --text-color-ligth: rgba(115, 115, 115, 1);
   --social-media-icons-color: rgba(189, 189, 189, 1);
-  --input-bg: #f9f9f9;
+  --input-bg: #edebeb;
   --border-light: #e6e6e6;
   --hamburger-background-dark: #5a5a5a;
   --hamburger-background-light: #444;
+  --black-color: #000;
+  --white-color: #fff;
 }
