@@ -104,15 +104,25 @@ footer {
   color: #e42f08;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 1920px) {
+  .info-content,
+  .request {
+    margin: auto;
+    max-width: 1920px;
+  }
+}
+
+@media screen and (max-width: 769px) {
   .info {
     padding: 0;
   }
+
   .info-content {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
   }
+
   .info-links {
     width: 100%;
     text-align: center;
@@ -137,5 +147,10 @@ footer {
   .info-icons-conatiner img {
     width: 20px;
     height: 20px;
+  }
+
+  footer {
+    padding-right: 0;
+    text-align: center;
   }
 }
